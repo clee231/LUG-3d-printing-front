@@ -1,0 +1,92 @@
+/*------------------Overrides-------------------- */
+body {
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Exo 2', monospace;
+}
+.top-bar {
+	line-height: 2em;
+	height: 2em;
+}
+.top-bar .name h1 {
+	line-height: 2em;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: 2em;
+}
+.top-bar-section .has-dropdown > a:after {
+	margin-top: -11.5px;
+}
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	height: 2em;
+}
+.top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
+	margin-top: -0.7rem;
+}
+.row {
+	max-width: 73.2rem;
+}
+
+.top-bar-section ul li > a {
+	font-family: "Open Sans","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	font-size: 1.0rem;
+}
+.left-small .fi-layout {
+	font-size: 1em;
+	color: white;
+}
+.left-small {
+	height: 2rem;
+	text-align: center;
+}
+.top-bar .name {
+	margin-left: 3rem;
+}
+/*-------------------Custom---------------------- */
+.lug-footer-img {
+	clip: rect(0px, 1024px, 100px, 0px);
+	overflow: hidden;
+	position: absolute;
+}
+#navTux {
+	width: 25px;
+	height: 25px;
+}
+
+/*---------------------MATT---------------------- */
+.lug-footer-img {
+	width: 100%;
+	transition: all 0.5s;
+	transition-timing-function: ease;
+	transform:translate(0,-50px);
+	-webkit-transform:translate(0,-50px);
+	-moz-transform:translate(0,-50px);
+	-o-transform:translate(0,-50px);
+}
+
+.footer-note {
+	visibility: hidden;
+}
+
+#mattidea > .lug-footer-img  {
+	visibility: visible;
+}
+
+#mattidea:hover > .footer-note {
+	visibility: visible;
+}
+
+#mattidea:hover > .lug-footer-img {
+	transform: translate(0,-500px);
+	-webkit-transform: translate(0,-500px);
+	-moz-transform: translate(0,-500px);
+	-o-transform: translate(0,-500px);
+	clip: rect(0px, 1024px, 500px, 0px);
+
+}
+
+/*---------------------MATT---------------------- */
+
+

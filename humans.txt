@@ -1,0 +1,19 @@
+/* TEAM */
+Chase Lee - Lead Developer
+Carlos Ortega - Photo/Video Assets
+Matthew Dumford - Matt's ideas...  Need I say more?
+
+/* TEAM INFO */
+Site: http://lug.cs.uic.edu/
+Location: University of Illinois at Chicago, Chicago, IL
+
+/* THANKS */
+  * Zurb.com for providing Foundation.
+  * 2014 College of Engineering at the Univeristy of Illinois at Chicago for
+funding.
+
+/* SITE */
+  Last update: 2014/04/28
+  Standards: HTML5, CSS3
+  Components: jQuery, Orbit, Reveal, Zurb's Foundation
+  Software: Sublime, Git, Sass, Vim
