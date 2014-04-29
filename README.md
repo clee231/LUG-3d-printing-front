@@ -1,4 +1,4 @@
-LUG-3d-printing-front
+LUG 3D Printing Frontend
 =====================
 
 Lead Developer: Chase Lee
