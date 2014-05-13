@@ -46,6 +46,15 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 |
 */
 
+App::missing(function($exception)
+{
+	$page = $_SERVER['REQUEST_URI'];
+	$tokens = explode('/',$page);
+
+	return Response::view('errors.missing', array('title' => $tokens[sizeof($tokens)-1]), 404);
+});
+
+
 App::error(function(Exception $exception, $code)
 {
 	Log::error($exception);

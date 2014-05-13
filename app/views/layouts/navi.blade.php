@@ -70,14 +70,17 @@
 			  <aside class="left-off-canvas-menu">
 				<ul class="off-canvas-list">
 				  <li><label>Getting Started</label></li>
-				  <li><a href="#">Information</a></li>
-				  <li><a href="#">General Requirements</a></li>
+				  <li><a href="information">Information</a></li>
+				  <li><a href="requirements">General Requirements</a></li>
 				  <li><label>Makin' Something Cool!</label></li>
 				  <li><a href="#">Login</a></li>
 				  <li><a href="#">Upload your Model</a></li>
 				  <li><a href="#">Picking your colors</a></li>
 				  <li><a href="#">Miscellaneous Options</a></li>
 				  <li><a href="#">My Queue</a></li>
+				  <li><label>Digitizing Your Life</label></li>
+				  <li><a href="#">Scanner Information</a></li>
+				  <li><a href="#">When to drop by?</a></li>
 				  <li><label>Administration</label></li>
 				  <li><a href="#">Admin Login</a></li>
 				</ul>

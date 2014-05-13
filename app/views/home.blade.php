@@ -6,10 +6,12 @@
   <div class="row">
     <div class="large-12 columns">
       <img data-src="holder.js/1600x600/text:Parallax Header/auto/industrial"><br><br>
-		<div data-alert class="alert-box alert radius">
-		  <strong>WARNING:</strong> Your browser does not support Javascript! This website requires Javascript in order to run properly. Please enable and refresh the page.
-		<a href="#" class="close">&times;</a>
-		</div>
+		<noscript>	
+			<div data-alert class="alert-box alert radius">
+			  <strong>WARNING:</strong> Your browser does not support Javascript! This website requires Javascript in order to run properly. Please enable and refresh the page.
+			<a href="#" class="close">&times;</a>
+			</div>
+		</noscript>
     </div>
   </div>
  
