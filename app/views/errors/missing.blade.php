@@ -9,7 +9,7 @@
 	<p>We've got a 404 error on our hands. Thanks for finding this for us.</p>
 	<p>Now pester one of the LUG officers or Chase Lee about this error!</p>
 	<br />
-	<p><a href="#">Go back to the Homepage</a> or use the side menu</p>
+	<p><a href="#">Go back to the Homepage</a> or <a class="left-off-canvas-toggle" href="#">use the side menu</a></p>
 	<br /><br /><br /><br /><br /><br />
 	<br /><br /><br /><br /><br /><br />
 	<br /><br /><br /><br /><br /><br />
