@@ -3,16 +3,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<base href="//lug.cs.uic.edu/3dprint/">
 		<title>LUG 3D Printing | {{{ $title or 'Home' }}}</title> 
 		{{-- TODO: Move global title to global variable. --}}
-<link rel="stylesheet" href="css/vendor/f/normalize.css" /> 
+{{ HTML::style('css/vendor/f/normalize.css') }} 
 		{{-- 'f' is abbrievated from Foundation --}}
-<link rel="stylesheet" href="css/vendor/f/foundation.css" />
-		<link rel="stylesheet" href="css/vendor/f/foundation-icons.css" />
-		<link href='//fonts.googleapis.com/css?family=Exo+2:600|Open+Sans' rel='stylesheet' type='text/css'>
-		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/default.css" />
-		<script src="js/vendor/m/modernizr.js"></script>	
+{{ HTML::style('css/vendor/f/foundation.css')}}
+		{{ HTML::style('css/vendor/f/foundation-icons.css')}}
+		<link href="//fonts.googleapis.com/css?family=Exo+2:600|Open+Sans" rel="stylesheet" type="text/css">
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+		{{ HTML::style('css/default.css') }}
+		{{ HTML::script('js/vendor/m/modernizr.js') }}
 	</head>
 	<body>
 		<!-- Navigation -->
@@ -25,10 +26,10 @@
 			<a class="exit-off-canvas"></a>
 		</div> <!-- inner-wrap -->
 		</div> <!-- off-canvas-wrap -->
-		<script src="js/vendor/j/jquery-1.11.1.min.js"></script>
-		<script src="js/vendor/f/foundation.min.js"></script>
-		<script src="js/vendor/f/foundation/foundation.offcanvas.js"></script>
-		<script src="js/vendor/h/holder.js"></script>
+		{{ HTML::script('js/vendor/j/jquery-1.11.1.min.js')}}
+		{{ HTML::script('js/vendor/f/foundation.min.js')}}
+		{{ HTML::script('js/vendor/f/foundation/foundation.offcanvas.js')}}
+		{{ HTML::script('js/vendor/h/holder.js')}}
 		<script>
 			$(document).foundation();
 		</script>
