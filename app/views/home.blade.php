@@ -1,10 +1,10 @@
 @extends('layouts.master')
 
 @section('content')
-	<h1>LUG 3D Printing Systems</h1>
 	<!-- Header -->
   <div class="row">
     <div class="large-12 columns">
+	  <h1>LUG 3D Printing Systems</h1>
       <img data-src="holder.js/1600x600/text:Parallax Header/auto/industrial"><br><br>
 		<noscript>	
 			<div data-alert class="alert-box alert radius">

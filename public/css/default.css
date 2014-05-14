@@ -44,6 +44,12 @@ h1, h2, h3, h4, h5, h6 {
 .top-bar .name {
 	margin-left: 3rem;
 }
+nav p.right {
+	padding: 3px;
+}
+nav p.right a {
+	color: white;
+}
 /*-------------------Custom---------------------- */
 .lug-footer-img {
 	clip: rect(0px, 1024px, 100px, 0px);
@@ -53,6 +59,12 @@ h1, h2, h3, h4, h5, h6 {
 #navTux {
 	width: 25px;
 	height: 25px;
+}
+#error-icon {
+	font-size:23rem;
+	float:left;
+	padding: 2rem;
+	color: #FF2626; /* Official LUG RED is #FF2626. */
 }
 
 /*---------------------MATT---------------------- */
