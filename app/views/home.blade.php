@@ -4,8 +4,15 @@
 	<!-- Header -->
   <div class="row">
     <div class="large-12 columns">
-	  <h1>LUG 3D Printing Systems</h1>
-      <img data-src="holder.js/1600x600/text:Parallax Header/auto/industrial"><br><br>
+	  <div class="frontbanner">		
+		<video width="1280" height="720" autoplay="autoplay" loop> <!--EDIT: loop="true" is deprecated nowadays -->
+		  <source src="//lug.cs.uic.edu/3dprint/video/banner.mp4" type="video/mp4" />
+		  <source src="//lug.cs.uic.edu/3dprint/video/banner.webm" type="video/webm" />
+		  Your browser does not support the video tag.
+		</video>
+		<h1 class="banner-header">LUG 3D Printing</h1> 
+	  </div>
+		<br />
 		<noscript>	
 			<div data-alert class="alert-box alert radius">
 			  <strong>WARNING:</strong> Your browser does not support Javascript! This website requires Javascript in order to run properly. Please enable and refresh the page.

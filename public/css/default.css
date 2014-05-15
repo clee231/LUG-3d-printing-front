@@ -95,6 +95,24 @@ nav p.right a {
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
+.frontbanner {
+	width: 100%; 
+	overflow:hidden; 
+	height: 400px; 
+	background-color: black; 
+	vertical-align: middle; 
+	text-align: left; 
+	position:relative;
+}
+.banner-header {
+	position: absolute; 
+	font-size: 4rem;
+	top: 2em;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	line-height: 5rem;
+	padding: 0.25em;
+}
 /*---------------------MATT---------------------- */
 .lug-footer-img {
 	width: 100%;
