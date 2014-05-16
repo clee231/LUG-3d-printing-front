@@ -113,6 +113,11 @@ nav p.right a {
 	line-height: 5rem;
 	padding: 0.25em;
 }
+#previewCanvas {
+	border: 3px dashed #ccc;
+	height: 30rem;
+	width: 100%;
+}
 /*---------------------MATT---------------------- */
 .lug-footer-img {
 	width: 100%;

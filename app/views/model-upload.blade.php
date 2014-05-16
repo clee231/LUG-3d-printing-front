@@ -17,11 +17,21 @@
 			<p>Acceptable File Formats: .stl, .obj</p>
 			<div class="fileUpload button radius tiny">
 				<span>Or upload by clicking here!</span>
-				<input type="file" class="upload" />
+				<input id="fileUploadInput" type="file" class="upload" />
 			</div>
 		</div>
 	</div>
 	<div class="large-6 columns">
-		<p>Display model goes here</p>
-	</div>
+		<p style="position: absolute; top: 30%; left: 25%; color: #ccc; font-size: x-large;">Display model goes here</p>
+		<canvas id="previewCanvas" ></canvas>
+	</div><!-- large-6 columns -->
+  </div><!-- row -->
+  <div class="row">
+	<div id="alertarea" class="large-12 columns">
+		<br />
+	</div><!-- large-12 columns -->
+  </div><!-- row -->
+	{{ HTML::script('js/vendor/j/jsc3d.min.js') }}	
+	{{ HTML::script('js/vendor/j/jsc3d.touch.js') }}	
+	{{ HTML::script('js/model-upload.js') }}
 @stop
