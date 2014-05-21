@@ -15,4 +15,11 @@ if (Modernizr.canvas) {
 }
 
 var viewer = new JSC3D.Viewer(document.getElementById('previewCanvas'));
+viewer.setParameter('SceneUrl',         'http://lug.cs.uic.edu/3dprint/models/T-RexSkull_Skull.stl');
+viewer.setParameter('ModelColor',       '#DDDDDD');
+viewer.setParameter('BackgroundColor1', '#E5D7BA');
+viewer.setParameter('BackgroundColor2', '#383840');
+viewer.setParameter('RenderMode',       'smooth');
 
+viewer.init();
+viewer.update();

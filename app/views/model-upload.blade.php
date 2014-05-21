@@ -23,7 +23,7 @@
 	</div>
 	<div class="large-6 columns">
 		<p style="position: absolute; top: 30%; left: 25%; color: #ccc; font-size: x-large;">Display model goes here</p>
-		<canvas id="previewCanvas" ></canvas>
+		<canvas id="previewCanvas" width="550" height="474" ></canvas>
 	</div><!-- large-6 columns -->
   </div><!-- row -->
   <div class="row">
