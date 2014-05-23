@@ -18,3 +18,4 @@ Route::get('/', function()
 Route::get('home', function() {return View::make('home');});
 Route::get('information', function() {return View::make('information');});
 Route::get('new/model-upload', function() {return View::make('model-upload');});
+Route::get('dev/{arg?}', 'DevController@showIndex');
