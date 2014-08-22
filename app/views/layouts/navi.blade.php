@@ -28,7 +28,7 @@
 			  <!-- Offcanvas Menus -->
 			  <aside class="left-off-canvas-menu">
 				<ul class="off-canvas-list">
-				  <li><a href="home">Home (temp)</a></li>
+				  <li><a href="home">Home</a></li>
 				  <li><label>Getting Started</label></li>
 				  <li><a href="information">Information</a></li>
 				  <li><a href="requirements">General Requirements</a></li>
