@@ -30,9 +30,9 @@
     <div class="large-3 panel columns">
       <img data-src="holder.js/500x500/text:Image/auto/sky">
  
-      <h4>Header</h4>
+      <h4>What's Printing?</h4>
  
-      <p>Fusce ullamcorper mauris in eros dignissim molestie posuere felis blandit. Aliquam erat volutpat. Mauris ultricies posuere vehicula. Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p><hr>
+      <p>See what other people are printing. The possibilities are endless!</p><hr>
  
       <div class="row">
         <div class="large-4 columns">
@@ -106,17 +106,17 @@
       <div class="row">
         <div class="large-6 columns">
           <div class="panel">
-            <h5>Subheader</h5>
-            <p>Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p>
-            <a href="#" class="small button">Link</a>
+            <h5>What is 3D printing/scanning?</h5>
+            <p>3D printing is a process for making three-dimensional of almost any shape from a 3D model. 3D scanning is used to turn a physical object into a digitized 3D model. Learn how YOU can start creating!</p>
+            <a href="information" class="small button">More Info &raquo;</a>
           </div>
         </div>
  
         <div class="large-6 columns">
           <div class="panel">
-            <h5>Subheader</h5>
-            <p>Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p>
-            <a href="#" class="small button">Link</a>
+            <h5>Linux Users Group</h5>
+            <p>LUG at UIC is a student organization whose purpose is to provide a community for students that are interested in all things related to Linux. Learn more on our main website.</p>
+            <a href="//lug.cs.uic.edu" class="small button">LUG Homepage &raquo;</a>
           </div>
         </div>
       </div>

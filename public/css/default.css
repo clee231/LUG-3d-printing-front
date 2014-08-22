@@ -72,14 +72,7 @@ nav p.right a {
 	background-color: #eee;
 	text-align: center;
 	vertical-align: middle;
-}
-#backdrop {
-	font-size: 20rem;
-	color: #ccc;
-	text-align: center;
-	position: absolute;
-	top: 20%;
-	left: 28%;
+	cursor:pointer;
 }
 .fileUpload {
 	overflow: hidden;
