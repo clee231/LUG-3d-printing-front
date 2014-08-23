@@ -33,16 +33,16 @@
 				  <li><a href="information">Information</a></li>
 				  <li><a href="requirements">General Requirements</a></li>
 				  <li><label>Makin' Something Cool!</label></li>
-				  <li><a href="#">Login</a></li>
+				  <li><a href="login">Login</a></li>
 				  <li><a href="new/model-upload">Upload your Model</a></li>
-				  <li><a href="#">Picking your colors</a></li>
-				  <li><a href="#">Miscellaneous Options</a></li>
-				  <li><a href="#">My Queue</a></li>
+				  <li><a href="new/colors">Picking your colors</a></li>
+				  <li><a href="new/options">Miscellaneous Options</a></li>
+				  <li><a href="my-queue">My Queue</a></li>
 				  <li><label>Digitizing Your Life</label></li>
-				  <li><a href="#">Scanner Information</a></li>
+				  <li><a href="scanner">Scanner Information</a></li>
 				  <li><a href="#">When to drop by?</a></li>
 				  <li><label>Administration</label></li>
-				  <li><a href="#">Admin Login</a></li>
+				  <li><a href="admin/settings">Admin Settings</a></li>
 				</ul>
 			  </aside>
 

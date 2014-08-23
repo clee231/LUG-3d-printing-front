@@ -111,6 +111,10 @@ nav p.right a {
 	height: 30rem;
 	width: 100%;
 }
+#login-logo {
+	font-size:15rem;
+	color: #FF2626;
+}
 /*---------------------MATT---------------------- */
 .lug-footer-img {
 	width: 100%;
