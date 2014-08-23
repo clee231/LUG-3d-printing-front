@@ -6,7 +6,10 @@ class DevController extends BaseController {
 	
 	switch ($arg) {
 		case "dbname":
-			return $this->showDbName();	
+			return $this->showDbName();
+		case "version":
+			$laravel = app();
+			return Response::json(array('error' => false, 'version' => $laravel::VERSION));
 		default:
 			return Response::json(array('error' => true, 'message' => 'No entry used or invalid request'));
 	}

@@ -32,6 +32,7 @@
 				  <li><label>Getting Started</label></li>
 				  <li><a href="information">Information</a></li>
 				  <li><a href="requirements">General Requirements</a></li>
+				  <li><a href="officer-schedule">When to drop by?</a></li>
 				  <li><label>Makin' Something Cool!</label></li>
 				  <li><a href="login">Login</a></li>
 				  <li><a href="new/model-upload">Upload your Model</a></li>
@@ -40,7 +41,6 @@
 				  <li><a href="my-queue">My Queue</a></li>
 				  <li><label>Digitizing Your Life</label></li>
 				  <li><a href="scanner">Scanner Information</a></li>
-				  <li><a href="#">When to drop by?</a></li>
 				  <li><label>Administration</label></li>
 				  <li><a href="admin/settings">Admin Settings</a></li>
 				</ul>
