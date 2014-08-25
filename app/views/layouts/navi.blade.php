@@ -13,7 +13,7 @@
 					  </a>
 					</h1>
 				  </li>
-				  <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+				  <li class="menu-icon"><a href="#"><span>&nbsp;</span></a></li>
 				</ul>
 			 
 				<section class="top-bar-section">
@@ -31,7 +31,7 @@
 				  <li><a href="home">Home</a></li>
 				  <li><label>Getting Started</label></li>
 				  <li><a href="information">Information</a></li>
-				  <li><a href="requirements">General Requirements</a></li>
+				  <li><a href="requirements">Guidelines & Requirements</a></li>
 				  <li><a href="officer-schedule">When to drop by?</a></li>
 				  <li><label>Makin' Something Cool!</label></li>
 				  <li><a href="login">Login</a></li>
@@ -39,8 +39,6 @@
 				  <li><a href="new/colors">Picking your colors</a></li>
 				  <li><a href="new/options">Miscellaneous Options</a></li>
 				  <li><a href="my-queue">My Queue</a></li>
-				  <li><label>Digitizing Your Life</label></li>
-				  <li><a href="scanner">Scanner Information</a></li>
 				  <li><label>Administration</label></li>
 				  <li><a href="admin/settings">Admin Settings</a></li>
 				</ul>

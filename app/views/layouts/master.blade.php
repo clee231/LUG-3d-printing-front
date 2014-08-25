@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<base href="//lug.cs.uic.edu/3dprint/">
-		<title>LUG 3D Printing | {{{ $title or 'Home' }}}</title> 
+		<title>LUG 3D Printing | @yield('title')</title> 
 		{{-- TODO: Move global title to global variable. --}}
 {{ HTML::style('css/vendor/f/normalize.css') }} 
 		{{-- 'f' is abbrievated from Foundation --}}

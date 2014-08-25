@@ -17,7 +17,10 @@ Route::get('/', function()
 });
 Route::get('home', function() {return View::make('home');});
 Route::get('information', function() {return View::make('information');});
+Route::get('requirements', function() {return View::make('requirements');});
 Route::get('login', function() {return View::make('login');});
 Route::get('officer-schedule', function() {return View::make('officer-schedule');});
 Route::get('new/model-upload', function() {return View::make('model-upload');});
+Route::post('new/model-upload/file', 'modelController@uploadNewModel');
+Route::get('new/{arg}/colors', 'modelController@previewColors');
 Route::get('dev/{arg?}', 'DevController@showIndex');

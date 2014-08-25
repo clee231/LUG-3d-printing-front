@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title', 'Login')
+
 @section('content')
 	<div class="row">
 		<div class="small-4 large-centered columns text-center panel">
